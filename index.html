@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>sprotin samla ext v_9</title>
+  <meta charset="utf-8" />
+  <script src="jquery-3.4.1.slim.min.js"></script>
+  <link rel="stylesheet" href="spin.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="dictionary.css">
+  <script type="text/javascript" src="content_scripts.js" defer></script>
+  <script type="text/javascript" src="script.js" defer></script>
+
+</head>
+
+
+<body>
+  <div class="header">
+    <a id="logo_link"target="_blank" href="https://sprotin.fo/dictionaries?_DictionaryId=1&_SearchFor=&_SearchInflections=0&_SearchDescriptions=0&_Group=&_DictionaryPage=1">
+      <img src="img/logo_white.svg" id="logo_white">
+    </a>
+    <div class="button_controls">
+      <input type="image" src="img/left-arrow.png" id="back-button">
+      <input type="image" src="img/right-arrow.png" id="forward-button">
+    </div>
+  </div>
+
+<div class="content">
+  <section class="controls">
+    <div class="dictionary-textbox">
+      <div class="dictionary-button">
+        <input type="image" src="img/x.svg" id="x-button">
+        <input type="image" src="img/search.svg" id="search-button">
+      </div>
+
+      <input class="dictionary-input" type="text" placeholder="skriva leitorð..." id="input">
+    </div>
+
+    <div class="button_container">
+      <div id="1" class="selector">
+        <div id="btn_1" class="button activeB" style="background-color: #666666"><p>FØ<br>FØ</p></div>
+        <div id="res_1" class="results activeR">0</div>
+      </div>
+
+      <div id="2" class="selector">
+        <div id="btn_2" class="button" style="background-color: #0083af"><p>FØ<br>EN</p></div>
+        <div id="res_2" class="results">0</div>
+      </div>
+
+      <div id="3" class="selector">
+        <div id="btn_3" class="button" style="background-color: #0083af"><p>EN<br>FØ</p></div>
+        <div id="res_3" class="results">0</div>
+      </div>
+
+      <div id="4" class="selector">
+        <div id="btn_4" class="button" style="background-color: #e7746f"><p>FØ<br>DA</p></div>
+        <div id="res_4" class="results">0</div>
+      </div>
+
+      <div id="5" class="selector">
+        <div id="btn_5" class="button" style="background-color: #e7746f"><p>DA<br>FØ</p></div>
+        <div id="res_5" class="results">0</div>
+      </div>
+
+      <div id="21" class="selector">
+        <div id="btn_21" class="button" style="background-color: #e7746f"><p>DA<br>FØ</p></div>
+        <div id="res_21" class="results">0</div>
+      </div>
+
+      <div id="6" class="selector">
+        <div id="btn_6" class="button" style="background-color: #000000"><p>FØ<br>TÝ</p></div>
+        <div id="res_6" class="results">0</div>
+      </div>
+
+      <div id="7" class="selector">
+        <div id="btn_7" class="button" style="background-color: #000000"><p>TÝ<br>FØ</p></div>
+        <div id="res_7" class="results">0</div>
+      </div>
+
+      <div id="10" class="selector">
+        <div id="btn_10" class="button" style="background-color: #fdbd75"><p>FØ<br>SP</p></div>
+        <div id="res_10" class="results">0</div>
+      </div>
+
+      <div id="20" class="selector">
+        <div id="btn_20" class="button" style="background-color: #fdbd75"><p>SP<br>FØ</p></div>
+        <div id="res_20" class="results">0</div>
+      </div>
+
+      <div id="30" class="selector">
+        <div id="btn_30" class="button" style="background-color: #ff3333"><p>GR<br>FØ</p></div>
+        <div id="res_30" class="results">0</div>
+      </div>
+
+      <div id="9" class="selector">
+        <div id="btn_9" class="button" style="background-color: #44698e"><p>FR<br>FØ</p></div>
+        <div id="res_9" class="results">0</div>
+      </div>
+
+      <div id="11" class="selector">
+        <div id="btn_11" class="button" style="background-color: #3c8687"><p>FØ<br>IT</p></div>
+        <div id="res_11" class="results">0</div>
+      </div>
+
+      <div id="12" class="selector">
+        <div id="btn_12" class="button" style="background-color: #990000"><p>RU<br>FØ</p></div>
+        <div id="res_12" class="results">0</div>
+      </div>
+
+      <div id="24" class="selector">
+        <div id="btn_24" class="button" style="background-color: #f3c900"><p>FØ<br>KI</p></div>
+        <div id="res_24" class="results">0</div>
+      </div>
+
+      <div id="26" class="selector">
+        <div id="btn_26" class="button" style="background-color: #f3c900"><p>KI<br>FØ</p></div>
+        <div id="res_26" class="results">0</div>
+      </div>
+
+      <div id="15" class="selector">
+        <div id="btn_15" class="button" style="background-color: #63999b"><p>SAM</p></div>
+        <div id="res_15" class="results">0</div>
+      </div>
+
+      <div id="25" class="selector">
+        <div id="btn_25" class="button" style="background-color: #63999b"><p>NAVN</p></div>
+        <div id="res_25" class="results">0</div>
+      </div>
+
+      <div id="22" class="selector">
+        <div id="btn_22" class="button" style="background-color: #63999b"><p>ALFR</p></div>
+        <div id="res_22" class="results">0</div>
+      </div>
+
+      <div id="23" class="selector">
+        <div id="btn_23" class="button" style="background-color: #63999b"><p>TILT</p></div>
+        <div id="res_23" class="results">0</div>
+      </div>
+
+      <div id="13" class="selector">
+        <div id="btn_13" class="button" style="background-color: #63999b"><p>YRK</p></div>
+        <div id="res_13" class="results">0</div>
+      </div>
+
+      <div id="32" class="selector">
+        <div id="btn_32" class="button" style="background-color: #63999b"><p>BÚSK</p></div>
+        <div id="res_32" class="results">0</div>
+      </div>
+
+    </div>
+  </section>
+
+    <div class="sprotin_resultList">
+
+      <div id="notFound" class="not-found">
+        <div id="similarWord_list"></div>
+      </div>
+
+      <div id="results_list"></div>
+    </div>
+</div>
+
+
+</body>
+</html>

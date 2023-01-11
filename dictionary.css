@@ -1,0 +1,846 @@
+@font-face {
+  font-family: 'silsipa';
+  src: url("/fonts/silsipa.eot");
+  src: url("/fonts/silsipa.svg#SILSophiaIPA") format('svg'), url("/fonts/silsipa.eot?#iefix") format('embedded-opentype'), url("/fonts/silsipa.woff") format('woff'), url("/fonts/silsipa.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+.word_debug {
+  background-color: #dfd;
+  padding: 10px;
+  border: 1px solid #999;
+  line-height: normal;
+  border-radius: 5px;
+}
+.dictionary_number_bold,
+.dictionary_number_bold {
+  font-weight: bold;
+  color: #00f;
+}
+._a,
+._a,
+._a2,
+._a2 {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+}
+._b,
+._b {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._c,
+._c {
+  font-size: 75%;
+  font-weight: normal;
+  font-style: italic;
+/*text-decoration none*/
+  position: relative;
+  left: 1px;
+  top: -5px;
+}
+._d,
+._d,
+._d1,
+._d1,
+._d2,
+._d2 {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+  color: #333;
+}
+._D,
+._D {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._e,
+._e {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._eind,
+._eind {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._f,
+._f {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._frm,
+._frm {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._g,
+._g {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+  color: #333;
+}
+._h,
+._h {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._heimild,
+._heimild {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._hjaord,
+._hjaord {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._i,
+._i {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._j,
+._j {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._k,
+._k {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+  color: #333;
+}
+._K,
+._K {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal /* italic */;
+  color: #333;
+}
+._l,
+._l {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+  color: #333;
+}
+._m,
+._m,
+._m1,
+._m1 {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._n,
+._n,
+._n1,
+._n1,
+._n2,
+._n2 {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+  color: #333;
+}
+._ordafl,
+._ordafl {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._p,
+._p,
+._p1,
+._p1,
+._p2,
+._p2 {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._par,
+._par {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._r,
+._r {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+  color: #00f;
+  display: block;
+}
+._s,
+._s {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: italic /* normal */;
+  color: #333;
+}
+._smb,
+._smb {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._undirleitord,
+._undirleitord {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._u,
+._u {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+  color: #333;
+}
+._verk,
+._verk {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._v,
+._v,
+._vx,
+._vx {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: #333;
+}
+._x,
+._x {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+  color: #333;
+}
+._bullet,
+._bullet {
+  color: #00f;
+}
+.dictionary_number_bold {
+  font-weight: bold;
+  color: #00f;
+}
+.dictionary_number_bold {
+  font-weight: bold;
+  color: #00f;
+}
+.dictionary_number_bold {
+  font-weight: bold;
+  color: #00f;
+}
+.dictionary_number_bold {
+  font-weight: bold;
+  color: #00f;
+}
+.dictionary_number_bold {
+  font-weight: bold;
+  color: #00f;
+}
+._A {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+}
+
+._B {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+}
+._D {
+  font-size: 100%;
+  font-weight: bold /* normal */;
+  font-style: normal /* italic */;
+}
+._G {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._H {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._I {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._K {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+._N {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+._P {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+._R {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+  color: #00f;
+}
+._S {
+  font-size: 100%;
+  font-weight: normal /* bold */;
+  font-style: italic /* normal */;
+}
+._U {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+  color: #666;
+}
+._V {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+._A {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+}
+.X_B {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+}
+.X_C {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._D {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+._E {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic /* normal */;
+}
+.X_F {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+.X_G {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+.X_H {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+.X_I {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+.X_M {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._N {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal /* italic */;
+}
+._P {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+._R {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+  color: #00f;
+}
+.X_S {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+.X_T {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+.X_U {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+}
+.X_V {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+.X_W {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+._X {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal /* Italic */;
+}
+.ExplIndex {
+  font-weight: bold;
+  color: #00f;
+}
+
+.superscript {
+  font-size: 75%;
+  font-weight: normal;
+  text-decoration: none;
+  position: relative;
+  left: 1px;
+  top: -5px;
+}
+.subscript {
+  font-size: 75%;
+  font-weight: normal;
+  text-decoration: none;
+  position: relative;
+  left: -1px;
+  top: 4px;
+}
+._A {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: italic;
+}
+._B {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._C {
+  font-size: 75%;
+  font-weight: normal;
+  font-style: italic;
+  text-decoration: none;
+  position: relative;
+  left: 1px;
+  top: -5px;
+}
+._D {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+._E {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._F {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._G {
+  font-size: 90%;
+  font-weight: normal;
+  font-style: italic;
+}
+._H {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._I {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._J,
+._K {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+._L,
+._M {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._N {
+  font-size: 90%;
+  font-weight: normal;
+  font-style: italic;
+}
+._O,
+._P {
+  font-size: 90%;
+  font-weight: normal;
+  font-style: italic;
+}
+._Q,
+._R {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+  color: #00f;
+}
+._S {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+}
+._T {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  padding-left: 3px;
+}
+._U {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+}
+._V {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._W {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._X {
+  font-size: 90%;
+  font-weight: normal;
+  font-style: italic;
+}
+._Y,
+._Z {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+.dictionary_number_bold {
+  font-weight: bold;
+  color: #00f;
+}
+.superscript {
+  font-size: 75%;
+  font-weight: normal;
+  text-decoration: none;
+  position: relative;
+  left: 1px;
+  top: -5px;
+}
+.subscript {
+  font-size: 75%;
+  font-weight: normal;
+  text-decoration: none;
+  position: relative;
+  left: -1px;
+  top: 4px;
+}
+._A {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: italic;
+}
+._B {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._D {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+._F {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._K {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+._M {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._N {
+  font-size: 90%;
+  font-weight: normal;
+  font-style: italic;
+}
+._R {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+  color: #00f;
+}
+._S {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+}
+._X {
+  font-size: 90%;
+  font-weight: normal;
+  font-style: italic;
+}
+.superscript {
+  font-size: 75%;
+  font-weight: normal;
+  text-decoration: none;
+  position: relative;
+  left: 1px;
+  top: -5px;
+}
+.subscript {
+  font-size: 75%;
+  font-weight: normal;
+  text-decoration: none;
+  position: relative;
+  left: -1px;
+  top: 4px;
+}
+._A {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: italic;
+}
+._B {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._C {
+  font-size: 90%;
+  font-weight: normal;
+  font-style: normal;
+}
+._D {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+._E {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._F {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._G {
+  font-size: 90%;
+  font-weight: normal;
+  font-style: italic;
+}
+._H {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._I {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._J,
+._K {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+._L,
+._M {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._N {
+  font-size: 90%;
+  font-weight: normal;
+  font-style: italic;
+}
+._O,
+._P {
+  font-size: 90%;
+  font-weight: normal;
+  font-style: italic;
+}
+._Q,
+._R {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+  color: #00f;
+}
+._S {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+}
+._T {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  padding-left: 3px;
+}
+._U {
+  font-size: 100%;
+  font-weight: normal /* Hetta var normal */;
+  font-style: italic;
+}
+._V {
+  font-size: 90%;
+  font-weight: normal;
+  font-style: italic;
+}
+._W {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+._X {
+  font-size: 90%;
+  font-weight: normal;
+  font-style: italic;
+}
+._Y,
+._Z {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+.ExplIndex {
+  font-weight: bold;
+  color: #00f;
+}
+.dictionary_number_bold {
+  font-weight: bold;
+  color: #00f;
+}
+.phonetics {
+  font-size: 90%;
+  font-family: "SILSophiaIPA", "silsipa";
+}
+.large {
+  font-size: 150%;
+}
+.small {
+  font-size: 100%;
+}
+.smallest {
+  font-size: 75%;
+}
+._A {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+}
+._D {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+._E {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+._K {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+._R {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+}
+._S {
+  font-size: 100%;
+  font-weight: bold;
+  font-style: normal;
+}
+._T {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+.rightarrow,
+.doublearrow,
+.notequal {
+  font-weight: bold;
+}
+.synonym,
+.antonym {
+  color: #f00;
+}
